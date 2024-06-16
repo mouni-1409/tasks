@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.con{
+    margin-left: 0;
+    margin-top: 100px;
+    width: 100px;
+    height: fit-content;
+}
+.first{
+    width: 100%;
+    height: 100px;
+    background-color:green;
+    margin-bottom: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.second{
+    width: 100%;
+    height: 100px;
+    background-color:blue;
+    margin-bottom: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.third{
+    width: 100%;
+    height: 100px;
+    background-color:red;
+    margin-bottom: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.four{
+    width: 100%;
+    height: 100px;
+    background-color:gray;
+    margin-bottom: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.con2{
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 200px;
+}
+p{
+    margin-top: 30px;
+    font-size: large;
+}
+.first:hover{
+    background-color: transparent;
+}
+.second:hover{
+    background-color: transparent;
+}
+.third:hover{
+    background-color: transparent;
+}
+.four:hover{
+    background-color: transparent;
+}

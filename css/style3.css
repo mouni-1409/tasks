@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    width: 100%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+    border: 2px dotted black;
+    border-right: none;
+    
+}
+li{
+    border-right: 2px dotted black;
+    display: inline-block;
+    border-bottom: none;
+    cursor: pointer;
+    text-align: center;
+    font-size:xx-large ;
+}
+a{
+    text-decoration: none;
+    color:black ;
+}
+li:hover{
+    background-color: burlywood;
+}
